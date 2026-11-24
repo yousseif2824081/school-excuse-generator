@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #EDEDED;
+    text-align: center;
+    padding: 20px;
+}
+
+#excuse {
+    font-size: 1.2rem;
+    min-height: 100px;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+button{
+    background: #0066CC;
+    color: #EDEDED;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 6px;
+    border-radius: 12px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background: #0099FF;
+}
+
+#theme {
+    transition: top 0.2s, left 0.2s;
+    left: 20px;
+    top: 20px;
+    position: fixed;
+}
